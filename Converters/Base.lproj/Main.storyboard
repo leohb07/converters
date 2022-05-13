@@ -52,7 +52,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTh-dt-DcN">
-                                        <rect key="frame" x="36" y="398" width="140" height="68"/>
+                                        <rect key="frame" x="36" y="398" width="165" height="68"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                         <state key="normal" title="Celsius">
@@ -83,7 +83,7 @@
                                 <color key="textColor" red="0.97802001240000003" green="0.33305394649999998" blue="0.38133221859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="faw-FI-6zE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="faw-FI-6zE">
                                 <rect key="frame" x="43" y="529" width="328" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
@@ -97,6 +97,7 @@
                     <connections>
                         <outlet property="resultLabel" destination="faw-FI-6zE" id="7Y4-F1-KGH"/>
                         <outlet property="resultUnitLabel" destination="kpQ-Ru-s9T" id="6W4-YS-pwu"/>
+                        <outlet property="typeConvetionLabel" destination="hc3-l6-yzA" id="WKv-Ht-oqf"/>
                         <outlet property="unitOneButton" destination="MTh-dt-DcN" id="TP5-sV-ERu"/>
                         <outlet property="unitTwoButton" destination="LGc-W2-qcI" id="NIz-Un-BC1"/>
                         <outlet property="valueTextField" destination="ajG-WV-qRs" id="0EY-H2-rC9"/>
